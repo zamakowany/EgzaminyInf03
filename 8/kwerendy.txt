@@ -1,0 +1,3 @@
+kw1: SELECT `nazwa`,`ilosc`,producenci.nazwaProd FROM `materialy` JOIN producenci ON materialy.Producenci_id=producenci.id WHERE `ilosc`>9;
+kw2: SELECT `nazwa`,producenci.nazwaProd,jednostki.nazwaJedn FROM `materialy` JOIN producenci ON materialy.Producenci_id=producenci.id JOIN jednostki ON materialy.Jednostki_id=jednostki.id;
+kw3:

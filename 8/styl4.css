@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+* {
+    font-family: Verdana;
+    text-align: center;
+}
+
+header {
+    background-color: DarkGreen;
+    color: white;
+    padding: 5px;
+}
+
+#lewy {
+    background-color: PaleGreen;
+    width: 30%;
+    height: 500px;
+    float: left;
+}
+
+#prawy {
+    background-color: Honeydew;
+    width: 70%;
+    height: 500px;
+    padding-top: 100px;
+    float: left;
+}
+
+footer {
+    background-color: PaleGreen;
+    padding: 3px;
+}
+
+table {
+    border: 1px solid DarkGreen;
+    border-collapse: collapse;
+    margin: auto;
+    width: 95%;
+}
+
+td{
+    border: 1px solid DarkGreen;
+    padding: 20px 0;
+}
+th {
+    padding: 20px 0;
+}
+
+button {
+    background-color: DarkGreen;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
+button:hover {
+    background-color: Honeydew;
+    color: DarkGreen;
+}
